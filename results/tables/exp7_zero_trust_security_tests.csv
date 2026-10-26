@@ -1,0 +1,13 @@
+test_case_id,role,action,expected_outcome,observed_outcome,access_allowed,passed,latency_ms
+TC01_Valid_Structural_Read,structural_engineer,model:read,PERMITTED,PERMITTED,True,True,2.222
+TC02_Valid_Structural_Update,structural_engineer,element:update,PERMITTED,PERMITTED,True,True,1.007
+TC03_Valid_Auditor_Export,sustainability_auditor,export:ifc,PERMITTED,PERMITTED,True,True,0.0
+TC04_Missing_Auth_Token,None,model:read,DENIED_MISSING_TOKEN,DENIED_MISSING_TOKEN,False,True,0.997
+TC05_Expired_JWT_Token,viewer,model:read,DENIED_TOKEN_EXPIRED,DENIED_TOKEN_EXPIRED,False,True,0.0
+TC06_Forged_Signature,viewer,model:read,DENIED_INVALID_SIGNATURE,DENIED_INVALID_SIGNATURE,False,True,1.003
+TC07_Viewer_Privilege_Escalation,viewer,element:update,DENIED_ROLE_PRIVILEGE_VIOLATION,DENIED_ROLE_PRIVILEGE_VIOLATION,False,True,0.0
+TC08_Auditor_Unauthorized_Delete,sustainability_auditor,element:delete,DENIED_ROLE_PRIVILEGE_VIOLATION,DENIED_ROLE_PRIVILEGE_VIOLATION,False,True,0.0
+TC09_Model_Integrity_Tamper,structural_engineer,integrity_verify,TAMPER_DETECTED,TAMPER_DETECTED,False,True,0.994
+TC10_Rate_Limit_Burst_Exceeded,anonymous,model:read,DENIED_RATE_LIMITED,DENIED_RATE_LIMITED,False,True,0.0
+TC11_Replay_Attack_Detected,viewer,model:read,DENIED_REPLAY_DETECTED,DENIED_REPLAY_DETECTED,False,True,0.0
+TC12_BIM_Manager_Full_Admin,bim_manager,security:audit_read,PERMITTED,PERMITTED,True,True,0.0

@@ -1,0 +1,15 @@
+item_code,sub_head,description,unit,basic_rate_inr,labour_component_inr,material_component_inr,cost_index_base,effective_year
+CPWD_04.01,04 - Concrete Work,Providing and laying cement concrete 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20mm nominal size),m3,6250.0,1250.0,5000.0,100.0,2021
+CPWD_05.01,05 - RCC Work,"Reinforced cement concrete work in beams, suspended floors, roofs having minimum M20 grade",m3,7850.0,1850.0,6000.0,100.0,2021
+CPWD_05.02,05 - RCC Work,"Reinforced cement concrete work in columns, pillars, piers having minimum M25 grade",m3,8450.0,2050.0,6400.0,100.0,2021
+CPWD_05.03,05 - RCC Work,Reinforced cement concrete work with M30 design mix concrete,m3,9150.0,2150.0,7000.0,100.0,2021
+CPWD_05.04,05 - RCC Work,Reinforced cement concrete work with Low-Carbon GGBS blend M25,m3,8150.0,2050.0,6100.0,100.0,2021
+CPWD_05.05,05 - RCC Work,Reinforced cement concrete work with Low-Carbon Fly Ash blend M25,m3,7950.0,2050.0,5900.0,100.0,2021
+CPWD_05.22,05 - Steel Reinforcement,"Thermo-Mechanically Treated (TMT) bars Fe-500D for RCC work including cutting, bending, binding",tonne,76000.0,9000.0,67000.0,100.0,2021
+CPWD_05.23,05 - Steel Reinforcement,Recycled Electric Arc Furnace TMT bars Fe-500 for RCC work,tonne,73500.0,9000.0,64500.0,100.0,2021
+CPWD_06.01,06 - Brick Work,Brick work with common burnt clay bricks of class designation 7.5 in foundation and plinth in cement mortar 1:6,m3,6100.0,1600.0,4500.0,100.0,2021
+CPWD_06.04,06 - Brick Work,Brick work with fly ash bricks conforming to IS:12894 in cement mortar 1:6,m3,5400.0,1500.0,3900.0,100.0,2021
+CPWD_06.15,06 - Masonry,Autoclaved Aerated Concrete (AAC) block masonry with thin bed adhesive,m3,5600.0,1400.0,4200.0,100.0,2021
+CPWD_10.01,10 - Structural Steel,"Structural steel work in single section fixed with or without connecting plate including cutting, hoisting, fixing",tonne,84000.0,16000.0,68000.0,100.0,2021
+CPWD_11.02,11 - Flooring,Vitrified tile flooring 600x600 mm with cement mortar 1:4,m2,1350.0,450.0,900.0,100.0,2021
+CPWD_12.01,12 - Roofing,Glazed aluminum curtain walling / double glazed units including structural frame,m2,6500.0,1800.0,4700.0,100.0,2021

@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,weighted_f1,train_time_s,latency_us
+Random Forest,0.9648,0.9102,0.9647,0.939,9.44
+XGBoost,0.9601,0.8122,0.9598,3.121,4.46
+LightGBM,0.9644,0.7852,0.9646,2.095,16.48

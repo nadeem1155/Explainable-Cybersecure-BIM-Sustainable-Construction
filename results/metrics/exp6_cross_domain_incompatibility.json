@@ -1,0 +1,7 @@
+{
+  "ton_iot_features": 0,
+  "ciciot_features": 39,
+  "schema_intersection_count": 0,
+  "direct_transfer_justified": false,
+  "methodological_rationale": "ToN_IoT uses NetFlow v2 stream records (IN_BYTES, PROTOCOL, TCP_FLAGS), whereas CICIoT2023 uses sliding statistical window traffic metrics (Rate, Tot size, IAT). Forced fusion violates statistical feature semantics."
+}

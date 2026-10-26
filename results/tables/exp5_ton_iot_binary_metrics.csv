@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1_score,roc_auc,pr_auc,false_positive_rate,train_time_s,latency_us
+Logistic Regression,0.7228,0.8753,0.6609,0.7532,0.734,0.8369,0.1672,5.575,0.13
+Random Forest,0.9885,0.9883,0.9938,0.991,0.999,0.9994,0.0208,0.956,5.43
+XGBoost,0.987,0.9897,0.99,0.9898,0.9985,0.9991,0.0184,0.488,1.03
+Isolation Forest,0.5377,0.8526,0.3355,0.4816,0.8276,0.8513,0.1031,0.258,4.44

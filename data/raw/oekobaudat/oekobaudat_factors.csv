@@ -1,0 +1,16 @@
+material_id,material_name,density_kg_m3,unit,GWP_A1_A3_kgCO2eq,PENRT_MJ,EPD_source,standard,geographic_scope
+MAT_CONC_M20,Concrete C20/25 (M20 equivalent),2350.0,m3,215.0,1350.0,ÖKOBAUDAT ID: 1.1.01,EN 15804,DE/EU baseline
+MAT_CONC_M25,Concrete C25/30 (M25 equivalent),2400.0,m3,245.0,1520.0,ÖKOBAUDAT ID: 1.1.02,EN 15804,DE/EU baseline
+MAT_CONC_M30,Concrete C30/37 (M30 equivalent),2420.0,m3,280.0,1710.0,ÖKOBAUDAT ID: 1.1.03,EN 15804,DE/EU baseline
+MAT_CONC_M35,High Strength Concrete C35/45,2450.0,m3,320.0,1950.0,ÖKOBAUDAT ID: 1.1.04,EN 15804,DE/EU baseline
+MAT_CONC_GGBS,Low-Carbon Concrete (50% GGBS substitution),2380.0,m3,135.0,980.0,ÖKOBAUDAT ID: 1.1.09,EN 15804,DE/EU baseline
+MAT_CONC_FA,Low-Carbon Concrete (30% Fly Ash substitution),2360.0,m3,165.0,1120.0,ÖKOBAUDAT ID: 1.1.10,EN 15804,DE/EU baseline
+MAT_STEEL_REBAR,Reinforcing Steel (TMT Fe-500 equivalent),7850.0,tonne,1850.0,24000.0,ÖKOBAUDAT ID: 3.1.01,EN 15804,DE/EU baseline
+MAT_STEEL_STRUCT,Structural Steel Sections (S355/Fe-410),7850.0,tonne,1950.0,26500.0,ÖKOBAUDAT ID: 3.1.04,EN 15804,DE/EU baseline
+MAT_STEEL_RECYCLED,Low-Carbon Recycled Electric Arc Steel,7850.0,tonne,720.0,12500.0,ÖKOBAUDAT ID: 3.1.08,EN 15804,DE/EU baseline
+MAT_BRICK_CLAY,Common Burnt Clay Bricks,1800.0,m3,240.0,1600.0,ÖKOBAUDAT ID: 2.1.01,EN 15804,DE/EU baseline
+MAT_BRICK_FLYASH,Fly Ash Cement Bricks,1750.0,m3,110.0,820.0,ÖKOBAUDAT ID: 2.1.05,EN 15804,DE/EU baseline
+MAT_BLOCK_AAC,Autoclaved Aerated Concrete (AAC) Blocks,600.0,m3,145.0,1150.0,ÖKOBAUDAT ID: 2.2.02,EN 15804,DE/EU baseline
+MAT_TIMBER_GLULAM,Glued Laminated Timber (Glulam),480.0,m3,-450.0,4500.0,ÖKOBAUDAT ID: 5.2.01,EN 15804,DE/EU baseline
+MAT_GLASS_DOUBLE,Double Glazed Insulating Glass Unit,2500.0,m2,48.0,750.0,ÖKOBAUDAT ID: 7.1.03,EN 15804,DE/EU baseline
+MAT_INSUL_MINERAL,Mineral Wool Insulation Board,40.0,m3,35.0,680.0,ÖKOBAUDAT ID: 6.1.02,EN 15804,DE/EU baseline

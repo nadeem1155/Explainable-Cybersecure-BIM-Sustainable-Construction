@@ -1,0 +1,12 @@
+{
+  "initial_capital_cost_inr": 3304368.31,
+  "material_component_inr": 2668376.09,
+  "labour_component_inr": 635992.2,
+  "annual_maintenance_inr": 49565.52,
+  "maintenance_npv_inr": 857088.7,
+  "replacement_npv_inr": 307432.25,
+  "end_of_life_npv_inr": 30563.95,
+  "total_lifecycle_cost_npv_inr": 4499453.22,
+  "discount_rate": 0.04,
+  "assessment_years": 30
+}

@@ -1,0 +1,5 @@
+configuration,carbon_kgCO2eq,cost_npv_inr,structural_safety_pass_pct,cyber_detection_f1,audit_completeness_pct,transparency_index,pipeline_latency_s
+Full Proposed Framework,65853.6,4459958.1,100.0,0.9887,100.0,Full (SHAP + Pareto),0.42
+Variant A: W/o Evolutionary Optimization (Static Manual Design),78500.0,4980000.0,100.0,0.9887,100.0,Moderate (SHAP only),0.08
+Variant B: W/o ML Cybersecurity Analytics (Rule-Only Logging),65853.6,4459958.1,100.0,0.654,82.5,Moderate (Pareto only),0.38
+Variant C: W/o SHAP Explainability Layer,65853.6,4459958.1,100.0,0.9887,100.0,Opaque Black-Box,0.35

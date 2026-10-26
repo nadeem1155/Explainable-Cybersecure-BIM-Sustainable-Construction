@@ -1,0 +1,46 @@
+{
+  "project_title": "An Explainable Multi-Objective Machine Learning Framework for Cybersecure BIM Software Design and Sustainable Smart Construction",
+  "version": "1.0.0",
+  "environment": "research_prototype",
+  "data_paths": {
+    "raw_bim": "data/raw/bim/Building-Structural.ifc",
+    "raw_ton_iot": "data/raw/ton_iot/ton_iot_network.csv",
+    "raw_ciciot": "data/raw/ciciot2023/ciciot2023_benchmark.csv",
+    "raw_oekobaudat": "data/raw/oekobaudat/oekobaudat_factors.csv",
+    "raw_cpwd": "data/raw/cpwd/cpwd_dsr_2021.csv",
+    "synthetic_security_logs": "data/synthetic/bim_security_events.csv"
+  },
+  "optimization_parameters": {
+    "algorithm": "NSGA-II",
+    "population_size": 50,
+    "generations": 35,
+    "crossover_probability": 0.9,
+    "mutation_probability": 0.15,
+    "random_seed": 42
+  },
+  "lca_parameters": {
+    "standard": "EN 15804 + A2",
+    "boundary": "Cradle-to-Grave (A1-C4)",
+    "transport_distance_km": 50.0,
+    "freight_emission_factor_kgCO2_per_tkm": 0.095,
+    "recycling_recovery_credit_ratio": 0.15
+  },
+  "lcc_parameters": {
+    "schedule_edition": "CPWD DSR 2021",
+    "base_year": 2021,
+    "assessment_horizon_years": 30,
+    "social_discount_rate": 0.04,
+    "annual_maintenance_ratio": 0.015,
+    "replacement_cycles_years": [15, 25],
+    "end_of_life_salvage_ratio": 0.03
+  },
+  "zero_trust_security": {
+    "standard": "NIST SP 800-207",
+    "jwt_algorithm": "HS256",
+    "token_ttl_minutes": 15,
+    "rate_limit_capacity": 60,
+    "rate_limit_refill_per_sec": 1.0,
+    "integrity_hash_algorithm": "SHA-256",
+    "encryption_at_rest": "AES-256 / Fernet"
+  }
+}

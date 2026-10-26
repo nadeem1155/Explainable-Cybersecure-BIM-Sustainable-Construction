@@ -1,0 +1,4 @@
+,embodied_carbon_kgCO2eq,lifecycle_cost_npv_inr,constraint_violation_f3,beam_material,column_material,wall_material,rebar_material,beam_depth_scale,column_dimension_scale
+carbon_oriented,66091.03,4484191.05,0.0,Low-Carbon Fly Ash 30% Concrete,Low-Carbon GGBS M30,Fly Ash Brick Masonry,Recycled EAF TMT Rebar,1.163,1.186
+cost_oriented,66091.03,4484191.05,0.0,Low-Carbon Fly Ash 30% Concrete,Low-Carbon GGBS M30,Fly Ash Brick Masonry,Recycled EAF TMT Rebar,1.163,1.186
+balanced,66091.03,4484191.05,0.0,Low-Carbon Fly Ash 30% Concrete,Low-Carbon GGBS M30,Fly Ash Brick Masonry,Recycled EAF TMT Rebar,1.163,1.186

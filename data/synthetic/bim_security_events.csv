@@ -1,0 +1,15 @@
+event_id,timestamp,actor_id,actor_role,resource_id,action,auth_outcome,integrity_status,request_ip,anomaly_score,scenario_label
+01034db9-0ec4-40b1-bb6c-a5a04ac6c365,2026-10-26T18:02:57.920843+00:00,engineer_arun,structural_engineer,IfcBeam_001,element:update,PERMITTED,VERIFIED,127.0.0.1,0.05,normal
+076cbca1-47eb-46f8-a9ab-d238432566bc,2026-10-26T18:02:57.921847+00:00,guest_user,viewer,IfcBeam_001,element:update,DENIED_ROLE_PRIVILEGE_VIOLATION,NOT_APPLICABLE,127.0.0.1,0.75,normal
+c6cb2e51-b524-446f-b57f-a375a4358044,2026-10-26T18:02:57.922848+00:00,engineer_arun,system,struct_model_v1,integrity_verify,PERMITTED,VERIFIED,127.0.0.1,0.01,model_integrity_ok
+adee8244-3024-44f4-b485-b3882c2772e9,2026-10-26T18:12:05.064714+00:00,legit_user,structural_engineer,IfcModel_01,model:read,PERMITTED,VERIFIED,127.0.0.1,0.05,normal
+db489c54-9f48-437d-b916-047dd68c0aef,2026-10-26T18:12:05.066937+00:00,legit_user,structural_engineer,IfcBeam_102,element:update,PERMITTED,VERIFIED,127.0.0.1,0.05,normal
+ac415e31-8f31-46e6-bcb3-406346217f9f,2026-10-26T18:12:05.067944+00:00,legit_user,sustainability_auditor,IfcModel_01,export:ifc,PERMITTED,VERIFIED,127.0.0.1,0.05,normal
+97ed5d62-f05e-4f54-b541-977b6070522f,2026-10-26T18:12:05.067944+00:00,anonymous,none,IfcModel_01,model:read,DENIED_MISSING_TOKEN,NOT_APPLICABLE,127.0.0.1,0.85,normal
+c29ac0e3-9329-41cd-b42e-90818b78449e,2026-10-26T18:12:05.068941+00:00,test_user,viewer,IfcModel_01,model:read,DENIED_TOKEN_EXPIRED,NOT_APPLICABLE,127.0.0.1,0.85,normal
+3871d39e-8ce2-4642-a064-637be43ea4fa,2026-10-26T18:12:05.068941+00:00,anonymous,none,IfcModel_01,model:read,DENIED_INVALID_SIGNATURE,NOT_APPLICABLE,127.0.0.1,0.85,normal
+4d817df1-d17c-4c12-bf56-f733f17a0ebd,2026-10-26T18:12:05.069944+00:00,legit_user,viewer,IfcBeam_102,element:update,DENIED_ROLE_PRIVILEGE_VIOLATION,NOT_APPLICABLE,127.0.0.1,0.75,normal
+5e16779b-9f5f-4b0e-a5ae-7e3b92e62ecf,2026-10-26T18:12:05.069944+00:00,legit_user,sustainability_auditor,IfcWall_201,element:delete,DENIED_ROLE_PRIVILEGE_VIOLATION,NOT_APPLICABLE,127.0.0.1,0.75,normal
+a0a88fb1-efe5-4ba1-8c06-506f3074bc81,2026-10-26T18:12:05.070938+00:00,anonymous,none,IfcModel_01,model:read,DENIED_RATE_LIMITED,NOT_APPLICABLE,192.168.1.99,0.95,normal
+cb160c07-99c3-4de6-9f02-fcc6e533cef4,2026-10-26T18:12:05.070938+00:00,replay_actor,viewer,IfcModel_01,model:read,DENIED_REPLAY_DETECTED,NOT_APPLICABLE,127.0.0.1,0.85,normal
+7173e063-3f0b-41ae-9c50-f50144e6bbde,2026-10-26T18:12:05.070938+00:00,legit_user,bim_manager,LOGS_01,security:audit_read,PERMITTED,VERIFIED,127.0.0.1,0.05,normal
