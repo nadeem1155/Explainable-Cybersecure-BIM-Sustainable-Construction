@@ -7,6 +7,9 @@ The framework integrates three foundational pillars into a cohesive, testable, c
 2. **Zero-Trust Cybersecure BIM Architecture**: Deterministic defense-in-depth security layer (NIST SP 800-207) enforcing authentication, least-privilege RBAC, cryptographic SHA-256 model integrity verification, and append-only audit logging.
 3. **Cybersecurity Analytics & Explainable AI (XAI)**: Supervised intrusion detection (XGBoost, Random Forest, LightGBM) and TreeSHAP transparency explaining network threat detections and construction trade-offs.
 
+![Framework Process Model Architecture](../results/figures/fig6_framework_model_architecture.png)
+*Figure: Complete Multi-Tier Framework Process Model & System Architecture.*
+
 ```
 +---------------------------------------------------------------------------------------------------------+
 |                                    BIM CLIENTS & COLLABORATORS                                         |

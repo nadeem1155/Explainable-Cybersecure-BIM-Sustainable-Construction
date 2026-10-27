@@ -244,6 +244,12 @@ In accordance with Section 8 of the prompt specifications, the framework strictl
 
 If an incoming request lacks valid credentials or violates role permissions, it is **instantly rejected (HTTP 401/403)** by the deterministic gateway, regardless of whether the ML intrusion classifier assigns a low anomaly probability. The ML analytics engine functions purely as an out-of-band surveillance and telemetry analysis mechanism, guaranteeing that classifier false negatives can never bypass hard access controls.
 
+### 9.3 Framework Process Model and Architectural Synthesis
+The complete end-to-end workflow, data pipelines, and architectural synthesis linking the three research pillars are presented in Figure 1.
+
+![Figure 1. End-to-end architectural workflow and data pipelines of the explainable multi-objective cybersecure BIM framework.](results/figures/fig6_framework_model_architecture.png)
+*Figure 1. End-to-end architectural workflow and data pipelines of the explainable multi-objective cybersecure BIM framework, illustrating the decoupled Zero-Trust enforcement gateway, evolutionary optimization pipeline, and TreeSHAP explainability layer.*
+
 ---
 
 ## 10. Machine Learning and Explainable AI Methodology

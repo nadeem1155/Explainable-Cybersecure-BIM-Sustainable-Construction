@@ -12,6 +12,16 @@ A complete, reproducible, and experimentally evaluated research software prototy
 
 ---
 
+## Architecture & Process Model
+
+The end-to-end framework architecture, data flows, and algorithmic interconnections are depicted below:
+
+![Framework Architecture and Process Model](results/figures/fig6_framework_model_architecture.png)
+
+*Figure: Complete Multi-Tier Framework Process Model & System Architecture detailing data ingestion, Zero-Trust gateway, optimization pipeline, and TreeSHAP explainability layer.*
+
+---
+
 ## 1. Repository Directory Structure
 
 ```text
